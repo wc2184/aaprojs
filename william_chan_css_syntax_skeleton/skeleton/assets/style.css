@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 38px;
+  margin-top: 5vh;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 5vh;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+ol {
+  list-style: square inside;
+}
+
+header > img {
+  width: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  background-color: beige;
+  padding: 5vw;
+  text-align: center;
+}
+
+input:last-child {
+  background-color: gold;
+}
+
+input:last-child:hover {
+  filter: brightness(85%);
+}
+
+.directions li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+h2 + .user_review {
+  border: 1px solid black;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 27px;
+  height: 27px;
+  background-image: url("./stars.png");
+  vertical-align: bottom;
+}
+
+input[type="radio"]:hover {
+  background-image: url("./stars.png");
+  background-position: 30px 60px;
+}
+
+input[type="radio"]:checked {
+  background-image: url("./stars.png");
+  background-position: 30px 30px;
+}
